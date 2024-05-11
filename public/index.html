@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Make a Reservation</h1>
+        <form action="/reserve" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+            <button type="submit">Reserve</button>
+        </form>
 
+        <h2>Search for a Reservation</h2>
+        <form action="/search" method="GET">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="email" name="email" placeholder="Enter Email" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    
+</body>
+</html>
