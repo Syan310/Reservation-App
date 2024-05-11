@@ -1,16 +1,19 @@
 {
   "name": "restaurant-reservation",
   "version": "1.0.0",
-  "description": "A simple restaurant reservation system with weather forecast",
-  "main": "app.js",
+  "description": "",
+  "main": "main.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "mongodb": "^3.6.6"
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
   }
 }
